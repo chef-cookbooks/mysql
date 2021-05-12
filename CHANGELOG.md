@@ -4,8 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
-- resolved cookstyle error: resources/mysql_database.rb:1:1 refactor: `Chef/Deprecations/ResourceWithoutUnifiedTrue`
-- resolved cookstyle error: resources/mysql_user.rb:1:1 refactor: `Chef/Deprecations/ResourceWithoutUnifiedTrue`
+- Chef 17 updates: enable `unified_mode` on all resources
+- Bump required Chef Infra Client to >= 15.3
+
 ## 10.1.2 - *2021-03-26*
 
 - Fix ctrl\_user always set as root for mysql\_user resource
